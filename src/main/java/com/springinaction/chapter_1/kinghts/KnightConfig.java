@@ -1,4 +1,4 @@
-package com.springinaction.kinghts;
+package com.springinaction.chapter_1.kinghts;
 
 import org.springframework.context.annotation.Bean;
 

@@ -1,4 +1,4 @@
-package com.springinaction.kinghts;
+package com.springinaction.chapter_1.kinghts;
 
 /**
  * Created by sha0w on 17-3-15.

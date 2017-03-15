@@ -3,14 +3,14 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <bean id = "knight" class="com.springinaction.kinghts.BraveKnight">
+    <bean id = "knight" class="com.springinaction.chapter_1.kinghts.BraveKnight">
         <constructor-arg ref="quest"/>
     </bean>
-    <bean id="quest" class="com.springinaction.kinghts.SlayDragonQuest">
+    <bean id="quest" class="com.springinaction.chapter_1.kinghts.SlayDragonQuest">
         <constructor-arg value="#{T(System).out}"/>
     </bean>
 
-    <bean id="minstrel" class="com.springinaction.kinghts.Minstrel">
+    <bean id="minstrel" class="com.springinaction.chapter_1.kinghts.Minstrel">
         <constructor-arg value="#{T(System).out}"/>
     </bean>
 
