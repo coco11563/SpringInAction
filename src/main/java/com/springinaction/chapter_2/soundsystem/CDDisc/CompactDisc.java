@@ -1,4 +1,4 @@
-package com.springinaction.chapter_2.soundsystem;
+package com.springinaction.chapter_2.soundsystem.CDDisc;
 
 /**
  * Created by sha0w on 17-3-15.

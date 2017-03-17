@@ -1,6 +1,9 @@
 package com.springinaction.chapter_2.soundsystem;
 
+import com.springinaction.chapter_2.soundsystem.CDDisc.CompactDisc;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 /**
@@ -8,11 +11,9 @@ import org.springframework.stereotype.Component;
  *
  * 2.6 using auto wire to insert a CompactDisc into CD player
  */
-@Component
 public class CDPlayer implements MediaPlayer {
     private final CompactDisc cd;
 
-    @Autowired
     public CDPlayer(CompactDisc cd) {
         this.cd = cd;
     }
