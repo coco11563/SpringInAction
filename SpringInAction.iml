@@ -7,6 +7,7 @@
           <file>file://$MODULE_DIR$/src/main/java/xmlPath/knights.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/xmlPath/CDPlayerConfig.xml</file>
           <file>file://$MODULE_DIR$/src/main/java/com/springinaction/chapter_2/soundsystemnotautowiring/CDPlayerConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/springinaction/chapter_3/ambiguityBean/PrimaryAndQualifier/DessertConfigure.java</file>
         </fileset>
       </configuration>
     </facet>
